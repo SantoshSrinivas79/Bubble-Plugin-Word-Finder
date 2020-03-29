@@ -1,0 +1,81 @@
+{
+    "calls": {
+        "AAD": {
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "Get rhyming words",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1549945431399x696525197126402000.plugin_api.AAD",
+            "types": "{\"plugin_api.AAD\":{\"caption\":\"Get rhyming word\",\"fields\":{\"_p_word\":{\"ret_value\":\"text\",\"caption\":\"word\",\"path\":[\"word\"]},\"_p_score\":{\"ret_value\":\"_ignore\"},\"_p_numSyllables\":{\"ret_value\":\"number\",\"caption\":\"numSyllables\",\"path\":[\"numSyllables\"]}}}}",
+            "url": "https://api.datamuse.com/words?rel_rhy=[Word to Rhyme with]",
+            "url_params": {
+                "AAW": {
+                    "doc": "Word to rhyme with",
+                    "key": "Word to Rhyme with",
+                    "private": true,
+                    "value": "fruit",
+                    "visibility": "public"
+                }
+            }
+        },
+        "AAX": {
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "Get associated words",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1549945431399x696525197126402000.plugin_api.AAX",
+            "types": "{\"plugin_api.AAX\":{\"caption\":\"Get associated word\",\"fields\":{\"_p_word\":{\"ret_value\":\"text\",\"caption\":\"word\",\"path\":[\"word\"]},\"_p_score\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.datamuse.com/words?rel_trg=[Word to associate with]",
+            "url_params": {
+                "ABB": {
+                    "doc": "Word to associate with",
+                    "key": "Word to associate with",
+                    "private": true,
+                    "value": "equality"
+                }
+            }
+        },
+        "ABC": {
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "Get related words",
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1549945431399x696525197126402000.plugin_api.ABC",
+            "types": "{\"plugin_api.ABC\":{\"caption\":\"Get related word\",\"fields\":{\"_p_word\":{\"ret_value\":\"text\",\"caption\":\"word\",\"path\":[\"word\"]},\"_p_score\":{\"ret_value\":\"_ignore\"},\"_p_tags\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://api.datamuse.com/words?ml=[Word to relate to]",
+            "url_params": {
+                "ABD": {
+                    "doc": "Word to related to",
+                    "key": "Word to relate to",
+                    "private": true,
+                    "value": "travel"
+                }
+            }
+        },
+        "ABE": {
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "Get similar sounding words",
+            "publish_as": "data",
+            "rank": 3,
+            "ret_value": "api.1549945431399x696525197126402000.plugin_api.ABE",
+            "types": "{\"plugin_api.ABE\":{\"caption\":\"Get similar sounding word\",\"fields\":{\"_p_word\":{\"ret_value\":\"text\",\"caption\":\"word\",\"path\":[\"word\"]},\"_p_score\":{\"ret_value\":\"_ignore\"},\"_p_numSyllables\":{\"ret_value\":\"number\",\"caption\":\"numSyllables\",\"path\":[\"numSyllables\"]}}}}",
+            "url": "https://api.datamuse.com/words?sl=[Word to sound like]",
+            "url_params": {
+                "ABF": {
+                    "key": "Word to sound like",
+                    "private": true,
+                    "value": "medidate"
+                }
+            }
+        }
+    },
+    "human": "Word Finder"
+}

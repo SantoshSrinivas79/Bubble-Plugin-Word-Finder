@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "media"
+    },
+    "demo_page": "https://datamuse.bubbleapps.io/version-test",
+    "description": "Word-finding tool to query words based on certain criteria, such as \"Rhymes with [your word]\", \"Sounds like [you word]\", \"Is related to [your word]\".\n\nHere is an example implementation:\nRun-mode - https://datamuse.bubbleapps.io/version-test\nEditor - https://bubble.is/page?name=index&id=datamuse&tab=tabs-1",
+    "image": "//s3.amazonaws.com/appforest_uf/f1550195941351x728467802306889300/Screen%20Shot%202019-02-14%20at%205.58.59%20PM.png",
+    "instructions": "",
+    "license": "open_source",
+    "link": "",
+    "name": "Word Finder",
+    "plugin_instructions": "See link to example implementation: https://bubble.is/page?name=index&id=datamuse&tab=tabs-1\n\nSteps:\n1. Install this plugin\n2. Set a data source (e.g. of text or repeating group) to “Insert dynamic data”—>”Get data from external API”—> Data Muse…\n3. Enter values for the criteria you’d like to search by (e.g. Rhymes with [Blue] is related to [Cow])\n4. If you don’t care about a criteria, leave it empty"
+}
